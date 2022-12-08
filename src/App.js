@@ -1,9 +1,11 @@
 import './App.css';
 
+import {Shakes} from "./props/prop.js";
+import { NewComponent } from './props/prop.js';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      {/* <header className="App-header">
         <img src="Octocat.png" className="App-logo" alt="logo" />
         <p>
           GitHub Codespaces <span className="heart">♥️</span> React
@@ -21,7 +23,12 @@ function App() {
             Learn React
           </a>
         </p>
-      </header>
+      </header> */}
+
+      My Favourite Album is...
+      <Shakes/>
+      <NewComponent name="der"/>
+      <p>children</p>
     </div>
   );
 }
